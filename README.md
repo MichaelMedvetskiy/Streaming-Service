@@ -18,4 +18,4 @@ And the list of commands that implemented in this project and their syntax:
 - exit
 - login ***Login*** ***Password*** //Login or Register in Server
 - list //Return the list of currently available content
-- stream ***Destination Port*** ***ID content*** //Send a request to server, to start stream certain content
+- stream ***Destination_Port*** ***ID_content*** //Send a request to server, to start stream certain content
