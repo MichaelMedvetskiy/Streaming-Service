@@ -28,7 +28,7 @@ public class Capture{
         SwingUtilities.invokeLater(new Runnable() {
             
             public void run() {
-				
+				System.out.println(inet);
                 new Capture().start("rtp://" + inet);
             }
         });

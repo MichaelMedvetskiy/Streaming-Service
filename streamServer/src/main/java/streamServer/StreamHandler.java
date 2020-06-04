@@ -7,7 +7,7 @@ import uk.co.caprica.vlcj.player.base.MediaPlayer;
 public class StreamHandler {
 
 	public static void startStream(String netStr) throws Exception{
-		
+			System.out.println(netStr);
 			String media = "C:\\content\\"+ new WrappedList().items.get(Integer.parseInt(StreamHandler.strParce(netStr,1))-1);
 	        String options = formatRtpStream(StreamHandler.strParce(netStr,0), Integer.parseInt(StreamHandler.strParce(netStr,2)));
 

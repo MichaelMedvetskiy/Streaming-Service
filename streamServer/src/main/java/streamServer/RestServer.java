@@ -380,7 +380,7 @@ public class RestServer implements Closeable, Runnable, IServer {
 	        }
 	    };
 	    t.start();
-		return Response.status(Status.OK).entity(StreamHandler.strParce(netStr, 0) + ":" + StreamHandler.strParce(netStr, 1)).build(); //new String(StreamHandler.strParce(netStr, 0) + ":" + StreamHandler.strParce(netStr, 1));
+		return Response.status(Status.OK).entity(StreamHandler.strParce(netStr, 0) + ":" + StreamHandler.strParce(netStr, 2)).build(); //new String(StreamHandler.strParce(netStr, 0) + ":" + StreamHandler.strParce(netStr, 1));
 		}
 	}
 
